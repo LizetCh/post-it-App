@@ -12,17 +12,17 @@ const NoteItem = ({note}) => {
 
 const styles = StyleSheet.create({
   noteItem: {
-    backgroundColor: '#338bfeff"',
+    backgroundColor: '#eed970ff',
     padding: 15,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     marginVertical: 5,
-    borderRadius: 8,
+    borderRadius: 8
   },
   noteText: {
     fontSize: 16,
-    color: '#ffffff',
+    color: '#000000ff',
   },
 })
 
