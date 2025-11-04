@@ -1,4 +1,4 @@
-import ReactImage from '@/assets/images/react-logo.png';
+import postItImage from '@/assets/images/post-it-image.png';
 import { useRouter } from 'expo-router';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -7,7 +7,7 @@ const HomeScreen = () => {
   const router = useRouter()
   return (
     <View style={styles.container}>
-      <Image source={ReactImage} style={styles.image} />
+      <Image source={postItImage} style={styles.image} />
       <Text style={styles.titulo}>Bienvenidos a mi aplicación</Text>
       <Text style={styles.subtitulo}>Captura tus datos en cualquier lugar y en cualquier momento</Text>
       <TouchableOpacity 
